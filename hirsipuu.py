@@ -47,6 +47,7 @@ def valikko():
         valinta = input("Pelaa uudestaan valitsemalla U tai poistu valitsemalla E: ").lower()
         if valinta == "u":
             hirsipuu()
+            break
         elif valinta == "e":
             print("Heippa!")
             break
